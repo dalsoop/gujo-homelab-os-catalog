@@ -8,11 +8,15 @@ locations, release versions, SHA-256 values, menu descriptions, and boot
 behavior. It does not store or download ISO images.
 
 [Gujo Homelab OS Installer](https://github.com/dalsoop/gujo-homelab-os-installer)
-pins an exact Catalog commit, selects entries, verifies downloads, and assembles
-the physical USB.
+pins an exact Catalog commit, verifies downloads, and assembles the physical
+USB. A user-owned
+[Gujo Homelab World Playbook](https://github.com/dalsoop/gujo-homelab-world-playbook)
+selects entries and records immutable USB generations once the external
+Installer consumer is implemented.
 
-> **Normal users fork only the Installer repository.** Fork this Catalog only
-> when contributing reusable public OS metadata.
+> **Normal users create only a World Playbook from its GitHub template.** Do not
+> fork this Catalog or the Installer for ordinary use. Fork this Catalog only
+> to contribute reusable public OS metadata.
 
 ## Layout
 
@@ -42,7 +46,8 @@ validation.
 5. Run `bin/verify-catalog` and open a pull request.
 
 Private images, organization-only URLs, credentials, hardware inventory, and
-automatic-install profiles do not belong here. Keep them in a Installer fork.
+automatic-install profiles do not belong here. Keep user-owned intent in a
+World Playbook and implementation behavior in the Installer.
 
 ## Contract summary
 
