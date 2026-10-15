@@ -11,6 +11,9 @@ behavior. It does not store or download ISO images.
 pins an exact Catalog commit, selects entries, verifies downloads, and assembles
 the physical USB.
 
+> **Normal users fork only the Installer repository.** Fork this Catalog only
+> when contributing reusable public OS metadata.
+
 ## Layout
 
 ```text
@@ -32,7 +35,7 @@ validation.
 
 ## Contribute an entry
 
-1. Fork this repository.
+1. Fork this repository only for the Catalog contribution.
 2. Add `catalog/entries/<stable-id>.json`.
 3. Register the same ID and path in `catalog/index.json`.
 4. Verify the URL and SHA-256 against an authoritative vendor source.
