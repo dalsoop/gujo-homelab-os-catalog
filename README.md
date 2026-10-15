@@ -1,5 +1,10 @@
 # Gujo Homelab OS Catalog
 
+> **Archived:** This module moved to
+> [`dalsoop/gujo-homelab/catalog`](https://github.com/dalsoop/gujo-homelab/tree/main/catalog).
+> Use or fork the single Gujo Homelab monorepo. This repository remains
+> read-only to preserve history.
+
 [![CI](https://github.com/dalsoop/gujo-homelab-os-catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/dalsoop/gujo-homelab-os-catalog/actions/workflows/ci.yml)
 
 A public, data-only catalog of bootloaders, operating-system installers, and live
